@@ -1,0 +1,9 @@
+# 运行期依赖（Python 3.10+）
+Pillow>=10.0          # 版式渲染、PDF 合成、tkinter 预览
+qrcode>=7.4           # 二维码矩阵（纠错级别 Q / M）
+
+# 可选：--source file 读取 .xlsx 时需要
+openpyxl>=3.1
+
+# 仅打包时需要：
+# pyinstaller>=6.0
